@@ -8,7 +8,7 @@ g = int(input("Kaç tane üreteyim ? >> "))
 
 
 print("Steam keyler üretilip bilgisayarınızda oluşturulan Steam Key.txt dosyasına kaydedilmektedir, eğer bitirmek istiyorsanız programı kapatın...")
-def uret():
+def uret(5):
   for x in range(g):
     print(random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) + "-" + random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) + "-" + random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist) +  random.choice(wordlist),file = dosya, flush = True)
 
